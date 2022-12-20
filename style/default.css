@@ -1,5 +1,5 @@
 body{
-    background-color: #bb8ebb;
+    background-color: #6c5f6c;
     color: #394040;
     font-family: 'Open Sans', sans-serif;
 }
@@ -18,7 +18,15 @@ header{
     margin: 43px auto 0 auto;
     width: 80%;
 }
-
+footer{
+    width: 80%;
+    background-color: #ceaece;
+    margin: 0 auto;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.3em;
+    padding-bottom: 1em;
+}
 nav{
     background-color: #bed8be;
     padding: 10px;
@@ -47,4 +55,5 @@ nav li a{
 }
 nav li a:hover{
     color: #525c5c;
+    background-color:#9ec59e;
 }
