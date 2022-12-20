@@ -1,6 +1,6 @@
 body{
     background-color: #6c5f6c;
-    color: #394040;
+    color: #222525;
     font-family: 'Open Sans', sans-serif;
 }
 main{
@@ -11,12 +11,15 @@ main{
     padding-right: 1.5em;
     padding-top: 0.3em;
     padding-bottom: 1em;
+    border-radius: 5px 5px 0 0;
+    min-height: 400px;
 }
 header{
-    background-color: #c0c6cc;
+    background-color: #ceaece;
     text-align: center;
     margin: 43px auto 0 auto;
     width: 80%;
+    border-radius: 0 0 5px 5px;
 }
 footer{
     width: 80%;
@@ -26,6 +29,11 @@ footer{
     padding-right: 1.5em;
     padding-top: 0.3em;
     padding-bottom: 1em;
+    border-radius: 0 0 5px 5px;
+}
+footer hr{
+    border: none;
+    border-top: 3px double #6c5f6c;
 }
 nav{
     background-color: #bed8be;
@@ -46,14 +54,15 @@ nav ul{
 }
 nav li{
     display: inline;
+    padding: 5px;
+    border-radius: 5px;
 }
 nav li a{
-    padding: 15px;
+    padding: 5px;
     text-decoration: none;
     margin: 15px;
     color: #394040;
 }
 nav li a:hover{
-    color: #525c5c;
-    background-color:#9ec59e;
+    color: #798686;
 }
