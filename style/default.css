@@ -5,7 +5,7 @@ body{
 }
 main{
     width: 80%;
-    background-color: #ceaece;
+    background-color: #fff;
     margin: 0 auto;
     padding-left: 1.5em;
     padding-right: 1.5em;
@@ -15,7 +15,7 @@ main{
     min-height: 400px;
 }
 header{
-    background-color: #ceaece;
+    background-color: #fff;
     text-align: center;
     margin: 43px auto 0 auto;
     width: 80%;
@@ -23,7 +23,7 @@ header{
 }
 footer{
     width: 80%;
-    background-color: #ceaece;
+    background-color: #fff;
     margin: 0 auto;
     padding-left: 1.5em;
     padding-right: 1.5em;
@@ -50,6 +50,7 @@ nav ul{
     list-style: none;
     margin: 0;
     padding: 0;
+    padding-left: 3em;
     overflow: hidden;
 }
 nav li{

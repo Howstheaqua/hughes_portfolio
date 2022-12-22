@@ -6,28 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style/default.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
     <title>Evan Hughes Portfolio</title>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <div data-include="components/nav.html"></div>
     <header>
-      <h1>Evan Hughes</h1>
-      <h2>Web Developer</h2>
+      <h1>About Me</h1>
     </header>
     <main>
-      <p>Some content</p>
+      <p>My name is Evan Hughes and I am a Computer Science student at the Univsersity of North Carolina at Charlotte.
+      I am currently a Junior and plan to graduate in May of 2024.
+      </p>
     </main>
-    <footer>
-      <p>Some footer content</p>
-    </footer>
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/default.js"></script>
+    <script src="scripts/HTMLInclude.min.js" crossorigin></script>
   </body>
 </html>

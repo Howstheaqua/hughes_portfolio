@@ -3,33 +3,23 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style/default.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
     <title>Evan Hughes Portfolio</title>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <header>
-      <h1>Evan Hughes</h1>
-      <h2>Computer Science Student</h2>
-    </header>
+    <div data-include="components/nav.html"></div>
+    <div data-include="components/header.html"></div>
     <main>
-      <h3>My Portfolio</h3>
       <p>Some content</p>
     </main>
-    <footer>
-      <hr>
-      <p>Some footer content</p>
-    </footer>
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/default.js"></script>
+    <script src="scripts/HTMLInclude.min.js" crossorigin></script>
   </body>
 </html>
